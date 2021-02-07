@@ -13,8 +13,9 @@ main {
 .section_container {
     border: 2px solid black;
     display:flex;
+    flex-direction: column;
     width: 60%;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: ceter;
     margin: 0px 20px;
@@ -22,13 +23,43 @@ main {
 
 .section{
     margin:20px 30px;
-   width: 25%;
 }
+
 
 ul{
     list-style: none;
     padding: 0;
+    text-align: start;
 }
 
+li span{
+    margin: 0px 10px;
+}
 
+.first {
+    background-color: teal;
+}
 
+.second{
+    background-color: thistle;
+}
+
+.third{
+    background-color: rgb(236, 158, 158);
+}
+
+.fourth{
+    background-color: rgb(233, 228, 155);
+}
+
+.fifth{
+    background-color: rgb(166, 136, 221);
+}   
+
+.sixth{
+    background-color: rgb(103, 181, 233);
+}
+
+.seventh{
+    background-color: rgb(244, 112, 248);
+}
